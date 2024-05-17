@@ -1,5 +1,4 @@
 # Learning Data Structures
-
 ## Big O
 This is not an exact time. This is used to estimate time it would take to run.
 
@@ -24,6 +23,7 @@ function sum_char_codes(n: string) : number {
 	return sum;
 }
 ```
+
 
 The time complexity of this function is O(n). This is due to estimate at worst case scenario at all times.
 
@@ -52,3 +52,10 @@ Time complexity is Log(n).
 When value checking is greater than needle, move the high down to where the value checking is.
 
 When the value is lesser than the needle, move the low to the value + 1 because we already know the value does not equal the needle and therefore does not need to be checked again.
+
+### Bubble Sort
+Time complexity is O(N2);
+
+## Linked List
+
+A daisy chain of nodes that point to another node.
